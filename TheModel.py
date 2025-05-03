@@ -3,6 +3,7 @@ from tensorflow.keras.layers import GRU, Dense, Input, GlobalAveragePooling1D, L
 from tensorflow.keras.models import Model
 
 class AttentionBlock(tf.keras.layers.Layer):
+    @keras.saving.register_keras_serializable()
     def __init__(self, num_heads, key_dim, rate=0.1, **kwargs):
         super().__init__(**kwargs)
         self.attention = MultiHeadAttention(num_heads=num_heads, key_dim=key_dim)
