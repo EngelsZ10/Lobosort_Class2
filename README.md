@@ -24,7 +24,7 @@ Además, esta notebook verifica automáticamente que todos los modelos hayan sid
 
 #### Clonar repositorio
 ```bash
-git clone <enlace-del-repositorio>
+git clone https://github.com/EngelsZ10/Lobosort_Class2/tree/Aprendizaje-Federado
 ```
 #### Configurar ambiente
 ```pwsh
