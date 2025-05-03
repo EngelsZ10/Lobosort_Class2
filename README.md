@@ -20,10 +20,17 @@ Además, esta notebook verifica automáticamente que todos los modelos hayan sid
 
 ## Cómo utilizar este repositorio
 
-### Paso 1: Clona el repositorio
+### Paso 1: Setup
 
+#### Clonar repositorio
 ```bash
 git clone <enlace-del-repositorio>
+```
+#### Configurar ambiente
+```pwsh
+uv venv
+.venv/Scripts/activate
+uv sync
 ```
 
 ### Paso 2: Entrenamiento Local
