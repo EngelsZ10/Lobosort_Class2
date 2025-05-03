@@ -31,6 +31,7 @@ git clone <enlace-del-repositorio>
 uv venv
 .venv/Scripts/activate
 uv sync
+pip install tensorflow
 ```
 
 ### Paso 2: Entrenamiento Local
