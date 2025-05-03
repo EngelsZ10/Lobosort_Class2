@@ -1,0 +1,14 @@
+[project]
+name = "lobosort-class2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.9"
+dependencies = [
+    "h5py>=3.13.0",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.5",
+    "pip>=25.1.1",
+    "scikit-learn>=1.6.1",
+]
